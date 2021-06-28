@@ -339,8 +339,8 @@ void analizadorSintactico(string v1){
 			if((v[i-2]=='a'||v[i-2]=='b'||v[i-2]=='2')&&(v[i-3]=='*'||v[i-3]=='-'||v[i-3]=='+'||v[i-3]=='/'))
 				parse=parse+"17 ";
 		}
-		else errores(1);
-		break;
+//		else errores(1);
+//		break;
 		if(v[i]==';'){
 			parse=parse+"3 ";
 			if(v[i+4]=='='){
